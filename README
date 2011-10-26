@@ -1,0 +1,6 @@
+Usage: http://localhost/Fizz-Buzz/fizz_buzz.php
+
+Description: create Fizz-Buzz algorithm
+Divisibility by 3 return 'Fizz'
+Divisibility by 5 return 'Buzz'
+Divisibility by 3,5 return 'Fizz-Buzz'
