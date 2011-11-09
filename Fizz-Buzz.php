@@ -1,6 +1,5 @@
 <?php
-    
-    if(!empty($_GET["input"])) {
+    function fizz_buzz($input) {
         # init
         $fizz_int = 3;
         $buzz_int = 5;
@@ -15,8 +14,8 @@
                 $fizz_int   => 'Fizz',
         );
         
-        #get input
-        $input = $_GET["input"];
+        # default answer is = input
+        $ans = $input;
         
         # calculate
         foreach ($operations as $operation => $ans_str) {
@@ -25,21 +24,7 @@
                 break;
             }
         }
+        
+        return $ans;
     }
 ?>
-<html>
-<head>
-    <title>Fizz Buzz</title>
-</head>
-<body>
-    <?php if(!empty($ans)) : ?>
-    The answer of <?php echo $input; ?> is '<?php echo $ans; ?>'<br />
-    <?php elseif (!empty($input)): ?>
-    Can't devide <?php echo $input; ?>
-    <?php endif; ?>
-    <form action="fizz_buzz.php" method="get">
-        input: <input type="text" name="input" />
-        <input type="submit" value="calculate" />
-    </form>
-</body>
-</html>

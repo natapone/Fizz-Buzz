@@ -1,4 +1,6 @@
-Usage: http://localhost/Fizz-Buzz/fizz_buzz.php
+Usage: $ php cmd.php 
+Test 'Fizz-Buzz' type input 'integer' to continue: 6
+6 ==> Fizz
 
 Description: create Fizz-Buzz algorithm
 Divisibility by 3 return 'Fizz'
