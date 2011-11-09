@@ -19,7 +19,7 @@
         
         # calculate
         foreach ($operations as $operation => $ans_str) {
-            if($input%$operation == 0) {
+            if($input%$operation == 0 and $input != 0) {
                 $ans = $ans_str;
                 break;
             }

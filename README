@@ -2,6 +2,17 @@ Usage: $ php cmd.php
 Test 'Fizz-Buzz' type input 'integer' to continue: 6
 6 ==> Fizz
 
+
+Unit test: $ phpunit TestFizzBuzz.php
+PHPUnit 3.6.2 by Sebastian Bergmann.
+
+........
+
+Time: 0 seconds, Memory: 4.50Mb
+
+OK (8 tests, 8 assertions)
+
+
 Description: create Fizz-Buzz algorithm
 Divisibility by 3 return 'Fizz'
 Divisibility by 5 return 'Buzz'
